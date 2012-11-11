@@ -1,0 +1,17 @@
+Easy to use folder and file (diff) comparison tool.
+
+Requires Android: Android 2.1 and up
+
+Use it to find changes between two folders and
+to find differences between two different versions of a file.
+It supports:
+* A colour-coded comparison makes it easy to pinpoint at a glance similarities and differences between files
+* Filter settings (file size, file modification date, regular expressions, etc.)
+* Comparison settings
+* html report generation for folder comparison results
+* html report generation for file comparison results
+Whereas process of folder comparison may be slow depending on file size and file count,
+you will see intermediate results of comparison and it is also possible to stop comparison
+process in any time.
+You may compare files which have differences. A colour-coded comparison makes it
+easy to pinpoint at a glance similarities and differences between files.
