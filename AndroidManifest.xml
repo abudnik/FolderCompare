@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fc.app"
+    android:versionCode="1"
+    android:versionName="1.01" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:debuggable="false" >
+        <activity
+            android:name=".FolderCompare"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="fc.dialogs.CompareSettings" android:label="@string/app_name"></activity>
+        <activity android:name="fc.dialogs.FilterSettings" android:label="@string/app_name"></activity>
+        <activity android:theme="@android:style/Theme.Dialog" android:name="fc.dialogs.DateTime" android:label="@string/app_name"></activity>
+        <activity android:name="fc.dialogs.FolderChooser" android:label="@string/app_name"></activity>
+        <activity android:name="fc.dialogs.About" android:theme="@android:style/Theme.Dialog" android:label="About Folder Compare"></activity>
+        <activity android:name="fc.dialogs.LicenseView" android:label="Third party licenses" android:theme="@android:style/Theme.Dialog"></activity><activity android:name=".DiffView" android:label="@string/app_name"></activity>
+        
+    </application>
+
+</manifest>
